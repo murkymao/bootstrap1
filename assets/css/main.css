@@ -67,7 +67,7 @@ hr {
 }
 
 #headerwrap {
-background: url("../img/header-bg.jpg") no-repeat center top;
+    background: url("../img/header-bg.jpg") no-repeat center top;
     margin-top: 50px;
     padding-top: 20px;
     text-align: center;
@@ -135,3 +135,54 @@ background: url("../img/header-bg.jpg") no-repeat center top;
     font-size: 40px;
 }
 
+.wb {
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+
+.wb h4 {
+    font-size: 36px;
+}
+
+#partners {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#partners h4 {
+    font-size: 46px;
+}
+
+#partners img {
+    width: 200px;
+    height: 160px;
+}
+
+#bottom-block {
+    background: #ff7878;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#bottom-block h4 {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+#footer {
+    background: #2d2d2d;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+#footer i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#footer i:hover {
+    color: #ff7878;
+}
