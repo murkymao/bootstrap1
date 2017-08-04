@@ -37,3 +37,31 @@ a:hover, a:focus {
     text-decoration: none;
     outline: 0;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
