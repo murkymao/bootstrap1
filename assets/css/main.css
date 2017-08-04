@@ -65,3 +65,35 @@ hr {
     font-size: 22px;
     letter-spacing: 1px;
 }
+
+#headerwrap {
+background: url("../img/header-bg.jpg") no-repeat center top;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100%;
+
+    /*для нормализации для всех расширений экрана*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#headerwrap h1 {
+    margin-top: 100px;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+    color: #cccccc;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
